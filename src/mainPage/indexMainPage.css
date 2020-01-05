@@ -1,0 +1,65 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Kulim+Park&display=swap');
+
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+div#main {
+    animation: fade-in 3s ease-in-out;
+}
+
+.intro-page {
+    font-family: 'Kulim Park', sans-serif;
+    font-size: 28px;
+    margin-left: 30px;
+}
+
+.intro-page div {
+    float: left;
+}
+
+.intro-page div#content {
+    clear: both;
+    font-size: 25px;
+    margin-top: 30px;
+    border: 2px solid rgb(117, 117, 117);
+    background-color: rgba(248, 248, 248, 0.3);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.intro-page footer {
+    clear: both;
+    text-align: center;
+    font-size: 13px;
+    
+}
+
+.main-nav-bar {
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+.main-nav-bar button {
+    border: 2px solid rgb(109, 109, 109);
+    background: none;
+    padding: 20px;
+    font-size: 22px;
+    border-radius: 10px;
+    outline-color: black;
+    margin-right: 20px;
+}
+
+.main-nav-bar button:hover {
+    cursor: pointer;
+}
+
