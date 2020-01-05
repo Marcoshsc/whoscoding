@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+div#wrapper {
+    text-align: center;
+}
+
+div#wrapper form {
+    display: inline-block;
+}
+
+.login-form div#inputs {
+    display: block;
+    margin-left: 25px;
+}
+
+.login-form div#inputs input {
+    display: block;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 5px;
+    border: 1px solid rgb(134, 134, 134);
+    outline-color: rgb(209, 209, 209);
+    font-family: 'Kulim Park', sans-serif;
+    font-size: 15px;
+    margin-left: 70px;
+}
+
+.login-form div#buttons button {
+    display: inline-block;
+}
+
+.form-buttons {
+    margin-top: 20px;
+}
+
+.form-buttons button {
+    font-family: 'Kulim Park', sans-serif;
+    border: 1px solid rgb(134, 134, 134);
+    margin-left: 20px;
+    background: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.form-buttons button:hover {
+    cursor: pointer;
+}
